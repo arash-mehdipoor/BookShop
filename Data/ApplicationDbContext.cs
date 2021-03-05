@@ -12,5 +12,6 @@ namespace BookShop.Data
             : base(options)
         {
         }
+        public DbSet<Book> Books { get; set; }
     }
 }
